@@ -3,77 +3,61 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-<meta property="og:title" content="Who's gamer0kayf1n3?">
-<meta property="og:site_name" content="gamer0kayf1n3's About Me">
-<meta property="og:url" content="gamer0kayf1n3.github.io">
-<meta property="og:description" content="This site describes who gamer0kayf1n3 is. That's all.">
+    <title>Under Construction</title>
 </head>
 
 <body>
-    <div id="centerer">
+    <div id="parent">
         <div id="box">
-            <div id="left">
-                <img id="pfp" src="https://discordfinder.gamer0kayf1n3.repl.co/695104034297610290/avatar/4096">
-                <h1>0kayf1n3</h1>
-                <p>Aspiring programmer, content creator, artist, and a gamer.</p>
-                <div id="b">
-                    <ul id="smid">
-                        <li>
-                            <a href="mailto:muser0943@gmail.com"><img src="aboutmeassets/sAsset 1asdasdsa.png"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/channel/UCUau_fWPI8aXb7uF1JdU-gg"><img src="aboutmeassets/sAsset 2asdasdsa.png"></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/gamer0kayf1n3"><img src="aboutmeassets/sAsset 3asdasdsa.png"></a>
-                        </li>
-                        <li>
-                            <a href="https://twitch.tv/gamer0kayf1n3"><img src="aboutmeassets/sAsset 4asdasdsa.png"></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/0kayf1n3"><img src="aboutmeassets/sAsset 5asdasdsa.png"></a>
-                        </li>
-                        <li>
-                            <a href="https://facebook.com/0kayf1n3"><img src="aboutmeassets/sAsset 6asdasdsa.png"></a>
-                        </li>
-                        <li>
-                            <a href="https://discord.gg/bEpRBmw3CZ"><img src="aboutmeassets/sAsset 9asdasdsa.png"></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <details>
-                <summary id="sum">More info</summary>
-                <div class="divtable">
-                    <div class="yt">
-                        <div id="yt-txt">
-                            <h1>Latest Video</h1>
-                        </div>
-                    </div>
-                    <div class="yt">
-                        <iframe src="https://www.youtube-nocookie.com/embed?listType=playlist&list=UUUau_fWPI8aXb7uF1JdU-gg" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </details>
+            <h1>Under Construction</h1>
+            <h2>Woops website under construction rn...</h2>
+            <p>Sorry...</p>
+            <p>- f1n3</p>
+            <button>Okay</button>
         </div>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script>
-            const details = document.querySelector("details");
-            details.addEventListener("click", function(e) {
-                if (details.hasAttribute("open")) { // since it's not closed yet, it's open!
-                    e.preventDefault(); // stop the default behavior, meaning - the hiding
-                    details.classList.add("closing"); // add a class which apply the animation in CSS
-                    setTimeout(() => { // only after the animation finishes, continue
-                        details.removeAttribute("open"); // close the element
-                        details.classList.remove("closing");
-                    }, 400);
-                }
-            });
-        </script>
+    </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+
+        #parent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        button {
+            box-shadow: 0 3.2px 7.2px 0 rgb(0 0 0 / 13%), 0 0.6px 1.8px 0 rgb(0 0 0 / 11%);
+            border: 0;
+            background-color: beige;
+            padding: 5px 30px;
+            font-size: 16px;
+            margin: 0 auto;
+        }
+
+        #box button {
+            text-align: center;
+        }
+
+        #box {
+            display: inline-block;
+            padding: 50px;
+            background-color: white;
+            box-shadow: 0 3.2px 7.2px 0 rgb(0 0 0 / 13%), 0 0.6px 1.8px 0 rgb(0 0 0 / 11%);
+        }
+
+
+        * {
+            font-family: 'Rubik', sans-serif;
+        }
+
+        body {
+            background: rgb(212, 212, 212);
+            background: radial-gradient(circle, rgba(212, 212, 212, 1) 0%, rgba(177, 218, 227, 1) 100%);
+            overflow: hidden;
+        }
+    </style>
 </body>
 
 </html>
